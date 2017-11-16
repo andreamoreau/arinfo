@@ -26,6 +26,7 @@ html{
 /*------------------------------*/
 .formation-text-box{
     position: absolute;
+    color: white;
     width: 1140px;
     top: 25%;
     left: 25%;
@@ -37,27 +38,12 @@ header{
     /*
     background-color: aqua;
     */
-    background-image:linear-gradient(rgba(255,165,33,0.5)  , rgba(49,255,81,0.7) ), url(img/danse.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5)  , rgba(73, 90, 58, 0.7) ), url(img/danse.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
 }
 
-
-.formation {
-    
-    background-color: aqua;
-    height: 100vh;
-
-}
-
-
-.tarifs {
-    
-    background-color: red;
-    height: 100vh;
-
-}
 
 .btn:link,
 .btn:visited {
@@ -67,23 +53,25 @@ header{
     padding: 10px 30px;
     margin: 10px 10px;
     font-weight: 300;
-    border-radius: 200px;
-    transition: background-color 0.2s, border 2s, color 0.2s;
+    border-radius: 30px;
+    transition: background-color 0.2s, border 0.5s, color 0.2s;
 }
 
 
 .btn-full:link,
 .btn-full:visited
 {   
-    border:2px outset #c4c4c4;
+    border:2px solid #c4c4c4;
     background-color:#fff;
+    color:black
     }
 
 
 .btn-ghost:link,
 .btn-ghost:visited
 {
-      border:2px solid #c4c4c4;
+      border:2px solid  #c4c4c4;
+      color:white
       
 }
 
@@ -98,14 +86,15 @@ header{
 .btn-full:hover,
 .btn-full:active
 {
-    background-color: #000;
+    background-color: #748068;
+    color: white
     
 }
 .btn-ghost:hover,
 .btn-ghost:active
 {
-    border:2px solid #000;
-
+    border:2px solid #748068;
+    color: #bababa
 }
 
 
