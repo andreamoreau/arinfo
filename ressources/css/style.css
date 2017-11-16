@@ -59,9 +59,25 @@ header{
 
 }
 
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    /* padding:10px 30px 10px 30px ; */
+    padding: 10px 30px;
+    margin: 10px 10px;
+    font-weight: 300;
+    border-radius: 200px;
+}
 
-
-
+.btn-full{
+    
+    border:2px solid #c4c4c4;
+    background-color:#fff;
+    }
+.btn-ghost{
+      border:2px solid #c4c4c4;
+      
+}
 /*------------------------------*/
 /* HEADER FIN */
 /*------------------------------*/
