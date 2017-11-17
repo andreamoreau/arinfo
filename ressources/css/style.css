@@ -128,13 +128,7 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom: 2px solid red;
-    
 }
-
-
-
-
-
 
 /**** Nav FIN ****/
 
@@ -143,3 +137,13 @@ header {
 /* HEADER FIN */
 
 /*------------------------------*/
+
+
+.icon-big
+{
+    font-size:350%;
+    color:aqua;
+  
+    
+}
+
