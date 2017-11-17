@@ -115,12 +115,26 @@ header {
    margin-left: 40px;
 }
 
-.main-nav li a {
+.main-nav li a:link,
+.main-nav li a:visited{
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s
     /* font-size: 110%; */
 }
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid red;
+    
+}
+
+
+
+
+
 
 /**** Nav FIN ****/
 
