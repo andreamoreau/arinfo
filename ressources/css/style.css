@@ -343,7 +343,6 @@ header {
 
 /*--------------------------------*/
 
-/*--------------------------------*/
 
 /* TABLEAU FORMATION */
 
@@ -418,6 +417,8 @@ blockquote {
 }
 
 blockquote:before {
+    font-family: Georgia, serif;
+    color : lightgrey;
     content: "\201C";
     font-size: 500%;
     display: block;
@@ -439,3 +440,59 @@ cite img {
     vertical-align: middle;
 }
 
+/* AVIS fin */
+
+/*--------------------------------*/
+
+/* FOOTER */
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer li {
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links {
+    margin-right: 0;
+    font-size: 250%; 
+}
+
+.footer li a,
+.social-links li a {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+}
+
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* ------------------------------ */
+
+/* FOOTER FIN */
